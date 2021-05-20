@@ -1,4 +1,4 @@
-Hello! Welcome on repository of VoxelSrv Server. It's really incomplete for now, but basic things will work. API and structure of this project will change in a future (as for now it's really raw).
+Hello! Welcome on repository of Galactica Unbound  Server. 
 I'm open to any PR/suggestions about functionality, API, fixes, etc
 
 ## Requirements
