@@ -15,4 +15,4 @@ I'm open to any PR/suggestions about functionality, API, fixes, etc
 ## Plugins
 For now all plugins are in `plugins` folder. For most stuff you will need probably write your own.
 
-## [Information about API can be found here](https://github.com/Patbox/voxelsrv-server/blob/master/API.md)
+## [Information about API can be found here](https://github.com/levlups/Galactica_Server/blob/main/API.md)
