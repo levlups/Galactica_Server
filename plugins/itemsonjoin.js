@@ -15,6 +15,12 @@ players.event.on('create', function(player) {
 		player.inventory.add(item, items.getStack(item) , {})
 		}
 		
+		if(item=='pilon'){
+			
+		player.inventory.remove(item, items.getStack(item))
+		player.inventory.add(item, items.getStack(item) , {})
+		}
+		
 		if(item=='wall'){
 			
 		player.inventory.remove(item, items.getStack(item))

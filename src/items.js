@@ -20,6 +20,7 @@ function initItems() {
 		   createItem('bubblegum', 'bubblegum', 'block-flat3d', 'item/bubblegumitem', {stack: 5})
 		   createItem('leash', 'leash', 'block-flat', 'item/leash', {stack: 5})
 		   createItem('wall', 'wall', 'block-flat', 'item/leash', {stack: 5})
+		      createItem('pilon', 'pilon', 'block-flat', 'item/leash', {stack: 5})
 	//Format of createItem - id, name, type, texture, attributes
 	
 	

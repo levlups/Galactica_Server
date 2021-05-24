@@ -75,6 +75,8 @@ function initBlocks() {
    
 	 createBlock(_id++, 'stairs', 5, ['block/sponge'], {solid: true, opaque: false}, {drop: 'gravel', hardness: 2.5, tool: 'shovel', material: 'rock',rotation:0,onCustomMeshCreate:null,slab:true})
 	 
+	  
+	 
 	  createBlock(_id++, 'table', 5, null, {solid: true, opaque: false}, {drop: 'gravel', hardness: 2.5, tool: 'shovel', material: 'rock',rotation:0,onCustomMeshCreate:null,slab:false})
 	  
 	  createBlock(_id++, 'chair', 5, null, {solid: true, opaque: false}, {drop: 'gravel', hardness: 2.5, tool: 'shovel', material: 'rock',rotation:0,onCustomMeshCreate:null,slab:false})
@@ -179,6 +181,8 @@ createBlock(_id++, 'cake', 30, ['block/cake_top', 'block/cake_side','block/cake_
 createBlock(_id++, 'airjelly', 31, null, {opaque: false,solid:false}, {drop: 'cactus', hardness: 3, tool: 'axe'}) 
 
 createBlock(_id++, 'flowerpot', 2000, null, {opaque: false,solid:false}, {drop: 'cactus', hardness: 3, tool: 'axe'}) 
+
+createBlock(_id++, 'pilon', 2000, ['block/sponge'], {solid: true, opaque: false}, {drop: 'gravel', hardness: 2.5, tool: 'shovel', material: 'rock',rotation:0,onCustomMeshCreate:null})
 
 //createBlock(_id++, 'sign', 2000, null, {opaque: false,solid:false}, {drop: 'cactus', hardness: 3, tool: 'axe'}) 
 
