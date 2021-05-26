@@ -90,6 +90,15 @@ require('./src/commands').register('/stop', (id, args) => {
 }, 'Stops the server (console only)')
 
 require('./src/console-exec')
+
+
+http.once('error', function(err) {
+  if (err.code === 'EADDRINUSE') {
+    // port is currently in use
+	console.log('lukasss')
+process.exit()
+  }
+});
 http.listen(cfg.port)
 
 
