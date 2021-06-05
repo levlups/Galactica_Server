@@ -174,7 +174,7 @@ function initProtocol(io0) {
 				socket.emit('entity-ignore', player.entity.id)
                 
 				 player.launchmobs()
-				/*Object.entries( entity.getAll(player.world) ).forEach(function(data) {
+				Object.entries( entity.getAll(player.world) ).forEach(function(data) {
 					
 					 //console.log(JSON.stringify(data[1].data))
 					//console.log(JSON.stringify(data))
@@ -186,7 +186,7 @@ function initProtocol(io0) {
 					})
 					}
 					
-					if(data[1].data.type=='rocket'){
+					/*if(data[1].data.type=='rocket'){
 					socket.emit('entity-spawn-mob', {
 						id: data[0],
 						data: data[1].data
@@ -209,11 +209,11 @@ function initProtocol(io0) {
 						id: data[0],
 						data: data[1].data
 					})
-					}
+					}*/
 					
 					
 				
-				})*/
+				})
 
 				send('#all', player.nickname + " joined the game!")
 				playerCount = playerCount + 1
